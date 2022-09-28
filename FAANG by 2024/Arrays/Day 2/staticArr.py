@@ -64,8 +64,7 @@ newArray.push(2)
 newArray.push(3)
 newArray.push(4)
 newArray.push(5)
-newArray.pop()
-newArray.replace(2,9)
+newArray.push(6)
 
 
 

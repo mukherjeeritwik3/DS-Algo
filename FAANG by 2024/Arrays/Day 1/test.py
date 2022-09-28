@@ -1,8 +1,15 @@
-import numpy as np
-
-a = np.array([1,2,3,4,5])
-for i in range(2,len(a)-1):
-    a[i] = a[i+1]
-
-del a[2]
-print(a)    
+def sendLast(nums,target):
+    temp = len(nums)-1
+    i =0
+    while(True):
+        if(i==temp):
+            nums[i] = target
+            return nums
+        if nums[i+1]==target:
+            i+=1
+        nums[i] = nums[i+1]
+        i+=1
+    return nums
+testarr = [0,1,0,3,12]
+print(sendLast(testarr,0))
+print(sendLast(testarr,0))
