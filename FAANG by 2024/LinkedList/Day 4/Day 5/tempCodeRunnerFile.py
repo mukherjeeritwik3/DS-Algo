@@ -1,0 +1,1 @@
+ListNodeObjRs = Solution().removeNthFromEnd(ListNodeObj,2)
